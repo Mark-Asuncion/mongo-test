@@ -11,3 +11,5 @@ curl 'localhost:8080/syllabus/query?name=<string>'
 ```
 curl -X POST 'localhost:8080/syllabus/insert' -H name:<string> -H password:<string>
 ```
+## JS Usage Example
+```fetch.js```

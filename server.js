@@ -6,4 +6,4 @@ const syllabus = require("./internal/syllabus.js");
 app.use("/syllabus", syllabus);
 const PORT = process.env.PORT;
 app.listen(PORT);
-console.log("Server listening on Port",PORT);
+console.log(`Server listening on localhost:${PORT}`);
